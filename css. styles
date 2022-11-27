@@ -1,0 +1,131 @@
+/*Student Name:Kyle Gonzales, Tyler Cureton, AJ Harrison
+File Name:styles.css
+Today's Date:10/29/2022
+*/
+
+/*CSS Reset*/
+body, header, nav, footer{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/*Style rule for body and image*/
+body{
+  background-color: #e3eaf8;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+/*Style rule for header content*/
+h1{
+  text-align: center;
+  font-size: 3em;
+  font-family: Georgia, Times, serif;
+  padding: 3%;
+  color: #101a2d;
+}
+
+/*Style rules for navigation area*/
+nav{
+  background-color: #1d396d;
+}
+
+nav ul{
+  background-color: #1d396d;
+  list-style-type: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li{
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: Verdana, Arial, sans-serif;
+  font-weight: bold;
+}
+
+nav li a{
+  display: block;
+  color: #e3eaf8;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  text-decoration: none;
+}
+
+/*Style rules for main content*/
+main{
+  padding: 2%;
+  font-family: Geneva, Arial, sans-serif;
+  overflow: auto;
+}
+
+main p{
+  font-size: 1.25em;
+}
+
+main h3{
+  paddidng-top: 2%;
+  font-size: 2em;
+}
+
+image{
+  width: 45%;
+  float: left;
+  padding: 1%;
+}
+
+#group{
+  width: 45%;
+  float: right;
+}
+
+.external {
+  color: #1d396d;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.grid-container {
+  display: grid;
+}
+
+/*Style rules for footer content*/
+footer{
+  text-align: center;
+  font-size: 0.85em;
+  background-color: #1d396d;
+  color: #e3eaf8;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-right: 0%
+  padding-left: 0%
+}
+
+footer p {
+  color: e3af8;
+  text-decoration: 0;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 650px), print {
+    
+    
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1024px), print {
+
+    
+}
+
